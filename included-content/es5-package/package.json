@@ -1,0 +1,7 @@
+{
+  "name": "es5-package",
+  "version": "0.1.0",
+  "description": "ES5 Package",
+  "main": "main.js",
+  "author": "Raphaël JOIE"
+}

@@ -1,0 +1,20 @@
+{
+  "name": "es6-es5compat-package",
+  "version": "0.1.0",
+  "main": "dist/cjs/main.cjs",
+  "type": "module",
+  "exports": {
+    "import": "./main.js",
+    "require": "./dist/cjs/main.cjs"
+  },
+  "scripts": {
+    "build": "rm -rf ./dist/cjs && babel ./src --plugins @babel/plugin-transform-modules-commonjs --out-dir 'dist/cjs' --out-file-extension .cjs"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.16.7",
+    "@babel/core": "^7.16.7",
+    "@babel/plugin-transform-modules-commonjs": "^7.16.7"
+  },
+  "description": "ES6 and ES5-compatible Package",
+  "author": "Raphaël JOIE"
+}

@@ -1,0 +1,13 @@
+{
+  "name": "es5-using-es5",
+  "version": "0.1.0",
+  "description": "Include ES5 code in ES5 project",
+  "main": "index.js",
+  "dependencies": {
+    "es5-package": "file:../included-content/es5-package"
+  },
+  "scripts": {
+    "test": "node index.js"
+  },
+  "author": "Raphaël JOIE"
+}

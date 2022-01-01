@@ -1,0 +1,8 @@
+{
+  "name": "es6-package",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "ES6 Package",
+  "main": "main.js",
+  "author": "Raphaël JOIE"
+}
